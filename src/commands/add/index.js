@@ -3,8 +3,6 @@ const { Command, flags } = require("@oclif/command");
 class AddCommand extends Command {
   async run() {
     const { flags, argv } = this.parse(AddCommand);
-    this.log("args", argv);
-    this.log("flags", flags);
 
     const isValid = argv.every((item) => !!parseInt(item));
 
@@ -20,7 +18,6 @@ class AddCommand extends Command {
     } else {
       const sum = argv.reduce((acc, next) => acc + parseInt(next), 0);
 
-      console.log("sum", sum);
       this.log(`The sum of the numbers is:`, sum);
     }
   }

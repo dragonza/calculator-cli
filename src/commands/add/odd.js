@@ -1,9 +1,8 @@
 const { Command, flags } = require("@oclif/command");
 
-class AddCommand extends Command {
+class AddOddCommand extends Command {
   async run() {
-    const { argv } = this.parse(AddCommand);
-    console.log("argv", argv);
+    const { argv } = this.parse(AddOddCommand);
     const isValid = argv.every((item) => !!parseInt(item));
 
     if (!isValid) {
@@ -20,13 +19,13 @@ class AddCommand extends Command {
   }
 }
 
-AddCommand.description = `Add numbers
+AddOddCommand.description = `Add numbers
 ...
 Calculate the sum of even numbers only
 `;
 
-AddCommand.flags = {};
+AddOddCommand.flags = {};
 
-AddCommand.args = [];
-AddCommand.strict = false;
-module.exports = AddCommand;
+AddOddCommand.args = [];
+AddOddCommand.strict = false;
+module.exports = AddOddCommand;

@@ -10,6 +10,42 @@ Calculator CLI
 
 <!-- toc -->
 # Usage
-<!-- usage -->
+
+### Add
+```
+// Addition of all numbers
+add 1 2 4 5 
+add 1 2.434343 4.443 5.454353 -f
+add:even 1 2 3 4
+add:odd 1 2 3 4
+```
+
+### Subtract
+```
+// Difference between two numbers
+subtract 100 4
+```
+### Multiply
+```
+// Multiplication of all numbers
+multiply 1 2 4 5 
+```
+
+### Division
+```
+// Division between two numbers
+divide 100 4
+```
 # Commands
+
+- add list-of-number
+- add -f list-of-number
+- add:even list-of-number
+- add:odd list-of-number
+- subtract arg1 arg2
+- multiply list-of-number
+- subtract arg1 arg2
+- divide list-of-number
+
+
 <!-- commands -->

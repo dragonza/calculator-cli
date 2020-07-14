@@ -11,9 +11,9 @@ describe("subtract", () => {
 
   test
     .stdout()
-    .command(["subtract", "1", "2"])
+    .command(["subtract", "100", "2"])
     .it("subtraction", (ctx) => {
       console.log("ctx", ctx);
-      expect(ctx.stdout).to.contain("The difference between 1 and 2 is: 1");
+      expect(ctx.stdout).to.contain("The difference between 100 and 2 is: 98");
     });
 });

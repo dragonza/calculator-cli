@@ -21,7 +21,7 @@ class SubtractCommand extends Command {
 
 SubtractCommand.description = `Describe the command here
 ...
-Subtraction between two numbers
+Difference between two numbers
 `;
 
 SubtractCommand.strict = false;
