@@ -38,14 +38,14 @@ divide 100 4
 ```
 # Commands
 
-- add list-of-number
-- add -f list-of-number
-- add:even list-of-number
-- add:odd list-of-number
+- add list-of-numbers
+- add -f list-of-numbers
+- add:even list-of-numbers
+- add:odd list-of-numbers
 - subtract arg1 arg2
-- multiply list-of-number
+- multiply list-of-numbers
 - subtract arg1 arg2
-- divide list-of-number
+- divide list-of-numbers
 
 
 <!-- commands -->
